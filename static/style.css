@@ -2,6 +2,10 @@
   background-color: #2f538a;
 }
 
+body .dark-grey-background {
+  background-color: #3d3d3d;
+}
+
 body {
   font-family: "Roboto", sans-serif;
 }
@@ -10,8 +14,12 @@ body {
   color: #3baed4;
 }
 
-.open-sans {
+body .open-sans {
   font-family: "Open Sans", sans-serif;
+}
+
+body .roboto {
+  font-family: "Roboto", sans-serif;
 }
 
 .brand {
@@ -65,52 +73,154 @@ body nav.navbar .navbar-nav li.active:hover {
 .nav-social-icons a {
   font-size: 1.5rem;
   cursor: pointer;
-  color: inherit;
   padding-right: 0.3rem;
 }
-.nav-social-icons a:hover {
+body .nav-social-icons a:hover {
   color: #3baed4;
 }
 
-.carousel-text{
+.carousel-text {
   position: absolute;
   top: 80px;
   /* top: ; */
 }
-body .navbar-light .text-grey{
-  color:#666666;
+
+body .silver-white-bg {
+  background-color: #f2f2f2;
 }
-.carousel-heading{
+body .text-silver {
+  color: #999;
+}
+body .navbar-light .text-grey,
+body .text-grey {
+  color: #666666;
+}
+.headlines p.title {
+  font-weight: 600;
+  margin-bottom: 0.3rem;
+}
+
+.headlines p.subtitle {
+  font-weight: 400;
+  font-size: 0.95rem;
+}
+.headlines div.icon {
+  font-size: 2.2rem;
+  color: #3baed4;
+  padding-bottom: 1rem;
+}
+.headlines > div {
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+.carousel-heading {
   font-size: 2.5rem;
   font-weight: 700;
   max-width: 600px;
   margin-bottom: 30px;
 }
-.carousel-desc{
-  color: #666666;
-  text-align: justify;
+.carousel-desc {
+  color: #999999;
   max-width: 600px;
   font-weight: 400;
+  font-family: "Open Sans", sans-serif;
 }
-/* font-family: 'Open Sans', sans-serif;
-font-family: 'Roboto', sans-serif; */
 
-/* .carousel-slide-1 {
+body .service {
+  margin-bottom: 2.5rem;
+}
+body .service img {
   width: 100%;
-  background-image: url("images/carousel/slide-1.jpg");
-  height: 100%;
-  background-size:100% 100%;
-  /* background-size: cover; */
-/* }
-.carousel-slide-2 {
-  background-image: url("images/carousel/slide-2.jpg");
 }
-.carousel-slide-3 {
-  background-image: url("images/carousel/slide-3.jpg");
+
+body .service .title {
+  color: #000000;
+  font-weight: 600;
+  text-decoration: none;
 }
-.carousel-slide-4 {
-  background-image: url("images/carousel/slide-4.jpg");
+body .service .title:hover {
+  color: #3baed4;
 }
-.carousel-slide-5 {
-  background-image: url("images/carousel/slide-5.jpg");
-} */ 
+
+body .service .desc {
+  font-size: 0.9rem;
+  color: #666666;
+  font-family: "Open Sans", sans-serif;
+}
+
+body .service .read-more {
+  color: #3baed4;
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 0.95rem;
+}
+
+body .service .read-more:hover {
+  color: #1588ae;
+}
+body .steps .title {
+  font-size: 2rem;
+  color: #fff;
+  font-weight: 400;
+  text-align: center;
+  padding: 1rem 0;
+}
+
+body .steps .step-card {
+  border: 1px solid rgba(250, 250, 250, 0.1);
+  padding: 1.5rem 1.7rem 0 1.5rem;
+  cursor: default;
+}
+
+body .steps .step-card:hover {
+  border: 1px solid transparent;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+  background-color: #444;
+  transition: all 100ms ease-out;
+}
+body .steps .step-card i {
+  font-size: 1.2rem;
+}
+
+body .steps .step-card .step-card-title {
+  display: inline-block;
+  font-weight: 700;
+  color: #fff;
+  margin-bottom: 1rem;
+}
+
+body .steps .step-card .step-card-desc {
+  font-family: "Open Sans", sans-serif;
+  color: #999999;
+  font-size: 0.95rem;
+}
+
+body .steps .step-card .step-card-number {
+  color: rgba(250, 250, 250, 0.1);
+  font-size: 3.5rem;
+  font-weight: 700;
+  margin-bottom: 0;
+  transition: all 100ms ease-out;
+}
+
+body .steps .step-card:hover .step-card-number {
+  color: #3baed4;
+}
+
+body .system .system-icon {
+  color: #3baed4;
+  font-size: 1.8rem;
+  padding-right: 1.5rem;
+}
+
+body .system .title{
+  font-size: 1.5rem;
+  margin-top: .15rem;
+}
+
+body .system .desc{
+  color: #999999;
+  font-size: .9rem;
+  font-family: "Open Sans", sans-serif;
+
+}
