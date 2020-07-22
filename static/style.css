@@ -213,14 +213,67 @@ body .system .system-icon {
   padding-right: 1.5rem;
 }
 
-body .system .title{
+body .system .title {
   font-size: 1.5rem;
-  margin-top: .15rem;
+  margin-top: 0.15rem;
 }
 
-body .system .desc{
+body .system .desc {
   color: #999999;
-  font-size: .9rem;
+  font-size: 0.9rem;
   font-family: "Open Sans", sans-serif;
+}
 
+.middle-line {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.08);
+  position: absolute;
+  top: 50%;
+  right: 0;
+  left: 80px;
+}
+
+body .faq-box {
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.1);
+}
+
+body .faq-box .faq-element {
+  padding: 1rem 0.8rem;
+  font-weight: 600;
+  line-height: 1.2rem;
+  cursor: pointer;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.08);
+}
+
+body .faq-box .faq-element:hover,
+body .faq-box .faq-outer:focus .faq-element {
+  color: #3baed4;
+  background-color: #eee;
+  outline: none;
+}
+body .faq-box .faq-outer:focus {
+  outline: none;
+}
+body .faq-box .faq-element i {
+  font-size: 1.2rem;
+  margin-right: 0.6rem;
+}
+
+body .faq-box .faq-content {
+  font-family: "Open Sans", sans-serif;
+  font-size: 0.95rem;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.08);
+  padding: 1.25rem;
+  padding-left: 3rem;
+  color: #999999;
+  display: none;
+}
+
+body .faq-box div.opened .faq-element {
+  color: #3baed4;
+  background-color: #eee;
+  outline: none;
+}
+
+body .faq-box div.opened .faq-content {
+  display: block;
 }
