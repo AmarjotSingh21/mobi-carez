@@ -1,4 +1,4 @@
-html{
+html {
   scroll-behavior: smooth;
 }
 
@@ -142,9 +142,6 @@ body .service .title {
   font-weight: 600;
   text-decoration: none;
 }
-body .service .title:hover {
-  color: #3baed4;
-}
 
 body .service .desc {
   font-size: 0.9rem;
@@ -152,14 +149,28 @@ body .service .desc {
   font-family: "Open Sans", sans-serif;
 }
 
-body .service .read-more {
+body .service .read-less .less {
+  display: block;
+}
+body .service .read-less .more {
+  display: none;
+}
+body .service .read-more .less {
+  display: none;
+}
+body .service .read-more .more {
+  display: block;
+}
+
+body .service .read-toggle {
   color: #3baed4;
   text-decoration: none;
   font-weight: 500;
   font-size: 0.95rem;
+  cursor: pointer;
 }
 
-body .service .read-more:hover {
+body .service .read-toggle:hover {
   color: #1588ae;
 }
 body .steps .title {
@@ -272,7 +283,7 @@ body .faq-box .faq-content {
   display: none;
 }
 
-body .desc-text{
+body .desc-text {
   font-family: "Open Sans", sans-serif;
   font-size: 0.85rem;
   color: #999999;
@@ -288,23 +299,23 @@ body .faq-box div.opened .faq-content {
   display: block;
 }
 
-body .about img{
+body .about img {
   max-width: 49%;
 }
-body div.about{
+body div.about {
   margin-bottom: 1.5rem;
 }
 
-body .contact-container{
+body .contact-container {
   padding: 15px;
 }
 
-body .contact-box{
+body .contact-box {
   box-shadow: 0 0 8px rgba(0, 0, 0, 0.1);
   padding: 1.5rem;
 }
 
-body .contact-box .contact-row{
+body .contact-box .contact-row {
   display: flex;
 }
 body .contact-box .contact-row i {
@@ -313,32 +324,32 @@ body .contact-box .contact-row i {
   margin-right: 1.3rem;
 }
 
-body .contact-box .contact-row{
+body .contact-box .contact-row {
   padding: 1rem 0;
   border-bottom: 1px solid #eee;
 }
 
-body .contact-box .contact-row:last-of-type{
+body .contact-box .contact-row:last-of-type {
   border-bottom: 1px solid transparent;
 }
 
-body div.gallery img{
+body div.gallery img {
   max-width: 49%;
 }
 
-body div.footer{
+body div.footer {
   background-color: #223d67;
   padding: 1.5rem;
   color: #aab5c9;
   line-height: 1.6;
 }
 
-body div.footer div.inner-footer{
+body div.footer div.inner-footer {
   background-color: #2f538a;
 }
-body div.footer div.inner-footer a{
+body div.footer div.inner-footer a {
   color: #aab5c9;
 }
-body .font-85{
-  font-size: .85rem;
+body .font-85 {
+  font-size: 0.85rem;
 }
