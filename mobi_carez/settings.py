@@ -13,7 +13,7 @@ SECRET_KEY = 'w^7u8r&aay+5g=qhyo#+srjvtyhsop^+auh$_locbv(l$&jyku'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['127.0.0.1']
+ALLOWED_HOSTS = ['127.0.0.1', 'https://mobi-carez.herokuapp.com/']
 
 
 # Application definition
