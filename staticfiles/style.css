@@ -1,0 +1,355 @@
+html {
+  scroll-behavior: smooth;
+}
+
+.primary-background {
+  background-color: #2f538a;
+}
+
+body .dark-grey-background {
+  background-color: #3d3d3d;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+.secondary-blue {
+  color: #3baed4;
+}
+
+body .open-sans {
+  font-family: "Open Sans", sans-serif;
+}
+
+body .roboto {
+  font-family: "Roboto", sans-serif;
+}
+
+.brand {
+  font-size: 2rem;
+  font-weight: 900;
+  color: #fff;
+}
+
+.icon-text {
+  color: #fff;
+  display: inline-block;
+  margin-left: 3px;
+  padding-top: 3px;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 300;
+}
+
+body nav.navbar .navbar-nav .nav-item .navbar-tab {
+  font-weight: 500;
+  padding: 1rem 2rem;
+}
+
+body nav.navbar .navbar-nav .nav-item .navbar-tab:hover {
+  color: #666666;
+}
+
+body nav.navbar .navbar-nav li.active .navbar-tab {
+  color: #3baed4;
+}
+body nav.navbar .navbar-nav li.active .navbar-tab:hover {
+  color: #3baed4;
+}
+
+body nav.navbar .navbar-nav li {
+  border-bottom: 5px solid transparent;
+}
+body nav.navbar .navbar-nav li:hover {
+  border-bottom: 5px solid #666666;
+}
+
+body nav.navbar .navbar-nav li.active:hover {
+  border-bottom: 5px solid #3baed4;
+}
+
+.nav-social-icons {
+  margin-right: 2rem;
+  margin-left: 2rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+.nav-social-icons a {
+  font-size: 1.5rem;
+  cursor: pointer;
+  padding-right: 0.3rem;
+}
+body .nav-social-icons a:hover {
+  color: #3baed4;
+}
+
+.carousel-text {
+  position: absolute;
+  top: 80px;
+  /* top: ; */
+}
+
+body .silver-white-bg {
+  background-color: #f2f2f2;
+}
+body .text-silver {
+  color: #999;
+}
+body .navbar-light .text-grey,
+body .text-grey {
+  color: #666666;
+}
+.headlines p.title {
+  font-weight: 600;
+  margin-bottom: 0.3rem;
+}
+
+.headlines p.subtitle {
+  font-weight: 400;
+  font-size: 0.95rem;
+}
+.headlines div.icon {
+  font-size: 2.2rem;
+  color: #3baed4;
+  padding-bottom: 1rem;
+}
+.headlines > div {
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+.carousel-heading {
+  font-size: 2.5rem;
+  font-weight: 700;
+  max-width: 600px;
+  margin-bottom: 30px;
+}
+.carousel-desc {
+  color: #999999;
+  max-width: 600px;
+  font-weight: 400;
+  font-family: "Open Sans", sans-serif;
+}
+
+body .service {
+  margin-bottom: 2.5rem;
+}
+body .service img {
+  width: 100%;
+}
+
+body .service .title {
+  color: #000000;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+body .service .desc {
+  font-size: 0.9rem;
+  color: #666666;
+  font-family: "Open Sans", sans-serif;
+}
+
+body .service .read-less .less {
+  display: block;
+}
+body .service .read-less .more {
+  display: none;
+}
+body .service .read-more .less {
+  display: none;
+}
+body .service .read-more .more {
+  display: block;
+}
+
+body .service .read-toggle {
+  color: #3baed4;
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 0.95rem;
+  cursor: pointer;
+}
+
+body .service .read-toggle:hover {
+  color: #1588ae;
+}
+body .steps .title {
+  font-size: 2rem;
+  color: #fff;
+  font-weight: 400;
+  text-align: center;
+  padding: 1rem 0;
+}
+
+body .steps .step-card {
+  border: 1px solid rgba(250, 250, 250, 0.1);
+  padding: 1.5rem 1.7rem 0 1.5rem;
+  cursor: default;
+}
+
+body .steps .step-card:hover {
+  border: 1px solid transparent;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+  background-color: #444;
+  transition: all 100ms ease-out;
+}
+body .steps .step-card i {
+  font-size: 1.2rem;
+}
+
+body .steps .step-card .step-card-title {
+  display: inline-block;
+  font-weight: 700;
+  color: #fff;
+  margin-bottom: 1rem;
+}
+
+body .steps .step-card .step-card-desc {
+  font-family: "Open Sans", sans-serif;
+  color: #999999;
+  font-size: 0.95rem;
+}
+
+body .steps .step-card .step-card-number {
+  color: rgba(250, 250, 250, 0.1);
+  font-size: 3.5rem;
+  font-weight: 700;
+  margin-bottom: 0;
+  transition: all 100ms ease-out;
+}
+
+body .steps .step-card:hover .step-card-number {
+  color: #3baed4;
+}
+
+body .system .system-icon {
+  color: #3baed4;
+  font-size: 1.8rem;
+  padding-right: 1.5rem;
+}
+
+body .system .title {
+  font-size: 1.5rem;
+  margin-top: 0.15rem;
+}
+
+body .system .desc {
+  color: #999999;
+  font-size: 0.9rem;
+  font-family: "Open Sans", sans-serif;
+}
+
+.middle-line {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.08);
+  position: absolute;
+  top: 50%;
+  right: 0;
+  left: 80px;
+}
+
+body .faq-box {
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.1);
+}
+
+body .faq-box .faq-element {
+  padding: 1rem 0.8rem;
+  font-weight: 600;
+  line-height: 1.2rem;
+  cursor: pointer;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.08);
+}
+
+body .faq-box .faq-element:hover,
+body .faq-box .faq-outer:focus .faq-element {
+  color: #3baed4;
+  background-color: #eee;
+  outline: none;
+}
+body .faq-box .faq-outer:focus {
+  outline: none;
+}
+body .faq-box .faq-element i {
+  font-size: 1.2rem;
+  margin-right: 0.6rem;
+}
+
+body .faq-box .faq-content {
+  font-family: "Open Sans", sans-serif;
+  font-size: 0.95rem;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.08);
+  padding: 1.25rem;
+  padding-left: 3rem;
+  color: #999999;
+  display: none;
+}
+
+body .desc-text {
+  font-family: "Open Sans", sans-serif;
+  font-size: 0.85rem;
+  color: #999999;
+}
+
+body .faq-box div.opened .faq-element {
+  color: #3baed4;
+  background-color: #eee;
+  outline: none;
+}
+
+body .faq-box div.opened .faq-content {
+  display: block;
+}
+
+body .about img {
+  max-width: 49%;
+}
+body div.about {
+  margin-bottom: 1.5rem;
+}
+
+body .contact-container {
+  padding: 15px;
+}
+
+body .contact-box {
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.1);
+  padding: 1.5rem;
+}
+
+body .contact-box .contact-row {
+  display: flex;
+}
+body .contact-box .contact-row i {
+  color: #3baed4;
+  font-size: 1.2rem;
+  margin-right: 1.3rem;
+}
+
+body .contact-box .contact-row {
+  padding: 1rem 0;
+  border-bottom: 1px solid #eee;
+}
+
+body .contact-box .contact-row:last-of-type {
+  border-bottom: 1px solid transparent;
+}
+
+body div.gallery img {
+  max-width: 49%;
+}
+
+body div.footer {
+  background-color: #223d67;
+  padding: 1.5rem;
+  color: #aab5c9;
+  line-height: 1.6;
+}
+
+body div.footer div.inner-footer {
+  background-color: #2f538a;
+}
+body div.footer div.inner-footer a {
+  color: #aab5c9;
+}
+body .font-85 {
+  font-size: 0.85rem;
+}
