@@ -10,4 +10,4 @@ Main Technologies:
 - Javascript
 
 Overview:
-- admin can do CRUD operation on FAQ
+- Admin can do CRUD operation on FAQ
